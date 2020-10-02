@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="@color/background"
+    app:cardElevation="6dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="@color/background">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.50121653" />
+
+        <ImageView
+            android:id="@+id/imageAnimal"
+            android:layout_width="178dp"
+            android:layout_height="159dp"
+            android:contentDescription="@string/ImagemAnimal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.072"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/animal_tucan" />
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/tucano_de_bico_verde"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageAnimal"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nomeci"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/ramphastos_dicolorus"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageAnimal"
+            app:layout_constraintTop_toBottomOf="@+id/nome" />
+
+        <TextView
+            android:id="@+id/vida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/_40_anos_de_vida"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageAnimal"
+            app:layout_constraintTop_toBottomOf="@+id/nomeci" />
+
+        <TextView
+            android:id="@+id/habitat"
+            android:layout_width="144dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/reas_florestadas_desde_o_litoral_at_as_zonas_montanhosas"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageAnimal"
+            app:layout_constraintTop_toBottomOf="@+id/vida" />
+
+        <Button
+            android:id="@+id/btnShareAnimal"
+            android:layout_width="189dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/button_fragment"
+            android:drawableLeft="@drawable/whatsap"
+            android:text="@string/compartilhar_no_whatsapp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnSaberMais"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnSaberMais"
+            android:layout_width="187dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/button_fragment"
+            android:drawableRight="@drawable/ic_baseline_add_24"
+            android:text="@string/saber_mais"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnShareAnimal" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ZOOapp</string>
+    <string name="animais">Animais</string>
+    <string name="Floresta">Floresta</string>
+    <string name="zoo">Zoológico de São Paulo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="principal">Principal</string>
+    <string name="Título" />
+    <string name="title">Vídeo Institucional da Fundação Parque Zoológico de São Paulo</string>
+    <string name="v_deo_institucional_da_funda_o_parque_zool_gico_de_s_o_paulo">Vídeo Institucional da Fundação Parque Zoológico de São Paulo</string>
+    <string name="nome1frag">Fundação Parque Zoológico de São Paulo</string>
+    <string name="title_activity_zoo_maps">Map</string>
+    <string name="title_activity_mapsactivity">Map</string>
+    <string name="localizar_zool_gico">Localizar Zoológico</string>
+    <string name="ligar">Ligar</string>
+    <string name="ImagemAnimal">Imagem do Animal selecionado</string>
+    <string name="tucano_de_bico_verde">TUCANO-DE-BICO-VERDE</string>
+    <string name="ramphastos_dicolorus">Ramphastos dicolorus</string>
+    <string name="_40_anos_de_vida">+- 40 Anos de vida</string>
+    <string name="reas_florestadas_desde_o_litoral_at_as_zonas_montanhosas">Áreas florestadas, desde o litoral até as zonas montanhosas</string>
+    <string name="compartilhar_no_whatsapp">compartilhar no whatsapp</string>
+    <string name="saber_mais">Saber mais</string>
+    <string name="title_activity_zoo_localiza">Map</string>
+</resources>
